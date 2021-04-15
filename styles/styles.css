@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --primary: #2E2E2E;
+    --bg: #F6F8FF;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: var(--bg);
+}
+
+input, 
+button, 
+textarea {
+    font-size: inherit;
+}
