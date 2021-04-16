@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
+    --duration-line: .8s;
     --primary: #2E2E2E;
     --secondary: #E5E5E5;
     --bg: #F6F8FF;
@@ -116,6 +117,7 @@ header nav
 
 
 /* Skills section */
+/* --Skills structure-- */
 .skills-container {
     width: 100%;
     display: flex;
@@ -134,7 +136,7 @@ header nav
     width: 90%;
 }
 .third-layer {
-    width: 50%;
+    width: 80%;
 }
 
 .skills {
@@ -148,6 +150,36 @@ header nav
 }
 .skills-third-layer {
     width: 50%;
+}
+
+/* --Skills animation & styling-- */
+.link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;  
+    overflow: hidden;
+}
+
+.link div {
+    width: 100%;
+}
+
+.link div svg {
+    display: block;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    transform: translateX(var(--line-x)) translateZ(0);
+    transition: transform var(--line-d, 0s) ease;
+} 
+
+.link:hover {
+    --line-d: var(--duration-line);
+    --line-x: 100%;
+    color: inherit;
 }
 
 /* Bio Section */

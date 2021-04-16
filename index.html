@@ -39,19 +39,37 @@
         <h2>#Skills</h2>
         <div class="skills-container">
             <div class="first-layer layer-container">
-                <a href="https://reactjs.org" class="skills skills-first-layer" target="_blank" rel="noopener noreferrer">React.js</a>
-                <a href="https://www.gatsbyjs.com" class="skills skills-first-layer" target="_blank" rel="noopener noreferrer">Gatsby.js</a>
-                <a href="#" class="skills skills-first-layer" target="_blank" rel="noopener noreferrer">Js</a>
-                <a href="#" class="skills skills-first-layer" target="_blank" rel="noopener noreferrer">Scss</a>
+                <div class="skills skills-first-layer">
+                    <a href="https://reactjs.org" class="link" target="_blank" rel="noopener noreferrer">React.js</a>
+                </div>
+                <div class="skills skills-first-layer">
+                    <a href="https://www.gatsbyjs.com" class="link" target="_blank" rel="noopener noreferrer">Gatsby.js</a>
+                </div>
+                <div class="skills skills-first-layer">
+                    <a href="#" class="link" target="_blank" rel="noopener noreferrer">Javasript</a>
+                </div>
+                <div class="skills skills-first-layer">
+                    <a href="#" class="link" target="_blank" rel="noopener noreferrer">Scss</a>
+                </div>
             </div>
             <div class="second-layer layer-container">
-                <a href="#" class="skills skills-second-layer" target="_blank" rel="noopener noreferrer">Html</a>
-                <a href="https://www.java.com/de/" class="skills skills-second-layer" target="_blank" rel="noopener noreferrer">Java</a>
-                <a href="https://www.figma.com" class="skills skills-second-layer" target="_blank" rel="noopener noreferrer">Figma</a>
+                <div class="skills skills-second-layer">
+                    <a href="#" class="link" target="_blank" rel="noopener noreferrer">Html</a>
+                </div>
+                <div class="skills skills-second-layer">
+                    <a href="https://www.java.com/de/" class="link" target="_blank" rel="noopener noreferrer">Java</a>
+                </div>
+                <div class="skills skills-second-layer">
+                    <a href="https://www.figma.com" class="link" target="_blank" rel="noopener noreferrer">Figma</a>
+                </div>
             </div>
             <div class="third-layer layer-container">
-                <a href="https://wordpress.com/de/" class="skills skills-third-layer" target="_blank" rel="noopener noreferrer">Wordpress</a>
-                <a href="https://webflow.com" class="skills skills-third-layer" target="_blank" rel="noopener noreferrer">Webflow</a>
+                <div class="skills skills-third-layer">
+                    <a href="https://webflow.com" class="link" target="_blank" rel="noopener noreferrer">Webflow</a>                    
+                </div>
+                <div class="skills skills-third-layer">
+                    <a href="https://wordpress.com/de/" class="link" target="_blank" rel="noopener noreferrer">Wordpress</a>
+                </div>
             </div>
         </div>
     </section>
@@ -91,4 +109,21 @@
             </div>
         </div>
     </section>
+
+    <script>
+        document.querySelectorAll('.link').forEach(link => {
+            link.insertAdjacentHTML('afterbegin', 
+                `<div>
+                <svg preserveAspectRatio="none" height="49" viewBox="0 0 100 80" fill="none" >
+                    <rect width="100" height="70" fill="url(#paint0_linear)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear" x1="1.49012e-06" y1="36" x2="92.0421" y2="-14.5032" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FECC55"/>
+                        <stop offset="1" stop-color="#FFE5A8"/>
+                    </linearGradient>
+                    </defs>
+                </svg></div>`)
+        });
+    </script>
 </body>
+</html>
