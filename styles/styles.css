@@ -36,10 +36,12 @@ a {
     text-decoration: none;
     color: inherit;
     font-weight: 500;
+    transition: transform 0.3s ease-in-out ;
 }
 
 a:hover {
-    color: var(--hover)
+    color: var(--hover);
+    transform: scale(1.2);
 }
 
 h1 {
@@ -91,6 +93,9 @@ header nav
     justify-content: space-between;
 }
 
+.main-logo:hover {
+    color:inherit;
+}
 
 /* Me Section */
 .me-section {
@@ -191,7 +196,7 @@ header nav
 }
 
 .contact-container h3{
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .contact-container div {
@@ -201,12 +206,11 @@ header nav
 .contact-entry {
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 
-.contact-entry i {
+.contact-entry a i {
     margin-right: 8px;
-}
-
-.contact-entry:hover i {
-    color: var(--hover);
+    display: inline-block;
+    transform: translate(0, 28%)
 }
