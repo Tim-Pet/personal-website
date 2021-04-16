@@ -6,6 +6,7 @@
     --secondary: #E5E5E5;
     --bg: #F6F8FF;
     --hover: #81E070;
+    --header-height: 60px;
 }
 
 /* =================
@@ -77,6 +78,12 @@ h3 {
     height: auto;
   }
 
+  a.anchor {
+    display: block;
+    position: relative;
+    top: calc(var(--header-height) * -1);
+    visibility: hidden;
+  }
 
 /* =================
     SECTIONS
@@ -108,7 +115,7 @@ header nav
 
 /* Me Section */
 .me-section {
-    padding-top: 75px;
+    padding-top: calc(var(--header-height) + 15px);
     display: flex;
     flex-direction: row;
     align-items: center;
