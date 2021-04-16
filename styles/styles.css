@@ -6,6 +6,11 @@
     --bg: #F6F8FF;
 }
 
+/* =================
+    GENERIC
+================= */
+/* generic styling */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -46,6 +51,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+/* ... */
+
+
+/* generic class stylings */
 .container {
     padding:0 5px;
     margin-bottom: 20px;
@@ -53,10 +62,13 @@ h2 {
 
 .image-fluid {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
 
+  /* =================
+    SECTIONS
+================= */
 
 /* Header */
 header {
@@ -77,6 +89,7 @@ header nav
     justify-content: space-between;
 }
 
+
 /* Me Section */
 .section-me {
     padding-top: 75px;
@@ -85,11 +98,15 @@ header nav
     align-items: center;
 }
 
-.section-me img {
-    border-radius: 100px 100px 0% 100px;
+.section-me picture {
     width: 50%;
     padding-right:25px;
 }
+
+.section-me picture img {
+    border-radius: 100px 100px 0% 100px;
+}
+
 
 /* Skills section */
 .skills-container {
@@ -114,3 +131,5 @@ header nav
 .skills-third-layer {
     width: 50%;
 }
+
+/* Bio Section */

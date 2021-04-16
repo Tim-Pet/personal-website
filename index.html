@@ -20,7 +20,11 @@
     </header>
 
     <section class="container section-me" id="me">
-        <img class="image-fluid" src="assets/images/profile.jpg" alt="">
+        <picture >
+            <source media="(max-width:599px)" srcset="assets/images/profile-mobile.jpg">
+            <source media="(min-width:600px)" srcset="assets/images/profile-desktop.jpg">
+            <img class="image-fluid" src="assets/images/profile-mobile.jpg" alt="Flowers">
+        </picture>
         <div>
             <h2>#Me</h2>
             <p>👋🏽 Hi, I am Tim</p>
