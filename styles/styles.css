@@ -34,6 +34,7 @@ textarea {
 a {
     text-decoration: none;
     color: inherit;
+    font-weight: 500;
 }
 
 a:hover {
@@ -91,19 +92,19 @@ header nav
 
 
 /* Me Section */
-.section-me {
+.me-section {
     padding-top: 75px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.section-me picture {
+.me-section picture {
     width: 50%;
     padding-right:25px;
 }
 
-.section-me picture img {
+.me-section picture img {
     border-radius: 100px 100px 0% 100px;
 }
 
@@ -116,20 +117,35 @@ header nav
     justify-content: center;  
 }
 
-.skills {
-    text-align: center;
+.layer-container {
     margin-bottom: 5px;
-    /* border: 1px solid black; */
+    display: flex;
+}
+.first-layer {
+    width: 100%;
+}
+.second-layer {
+    width: 75%;
+}
+.third-layer {
+    width: 50%;
 }
 
+.skills {
+    text-align: center;
+}
 .skills-first-layer {
     width: 25%;
 }
 .skills-second-layer {
-    width: 33%;
+    width: 33.333%;
 }
 .skills-third-layer {
     width: 50%;
 }
 
 /* Bio Section */
+
+.bio-section p {
+    margin-bottom: 10px;
+}
