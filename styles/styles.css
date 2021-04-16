@@ -24,7 +24,6 @@ body {
     background-color: var(--bg);
     color: var(--primary);
     font-family: 'Montserrat', sans-serif;
-    overflow-y: hidden;
 }
 
 input, 
@@ -87,6 +86,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: fixed;
+    z-index: 100;
 }
 header h1,
 header nav
