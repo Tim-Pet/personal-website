@@ -98,7 +98,7 @@ h3 {
 /* generic class stylings */
 .container {
     padding: 0 max(calc((100vw - 1000px) / 2 ), 10px);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 a.anchor {
