@@ -8,12 +8,13 @@ This is a project during my studies @NeueFische to showcase not just a project b
 - Build a clean Html structure & add non-semantic elements later
 - Code one clean css sheet with a good structure & minimal duplicates 
 
-## Figma Design Showcase
-<img src="./assets/showcase/design-showcase.png" width="500" />
-
 ## Result
+### Figma design showcase
+- Nested at the bottom of this doc
+
 ### Page showcase
 - This page is live via vercel. Click the link in the upper right corner to access the page
+
 
 #### Page look & feel showcase
 - Coming soon
@@ -37,3 +38,7 @@ This is a project during my studies @NeueFische to showcase not just a project b
 ## Next Steps
 - Expand the Website with content (e.g. Portfolio)
 - Follow the IT-Bootcamp @NeueFische wherever it goes
+
+
+## Figma design showcase
+<img src="./assets/showcase/design-showcase.png" width="500" />
