@@ -109,7 +109,10 @@ a.anchor {
 
 .h2-wrapper {
     position: relative;
-    width:fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -o-content;
+    width: -webkit-content;
 }
 /* =================
     SECTIONS
@@ -344,4 +347,21 @@ header nav
     display: inline-block;
     width:fit-content;
     transform-origin: bottom;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+.logo-container:hover .rotate {
+    -webkit-animation: rotate 4s infinite linear;
+    -moz-animation: rotate 4s infinite linear;
+    -o-animation: rotate 4s infinite linear;
+    animation: rotate 4s infinite linear;
+    transform-origin: center;
 }
