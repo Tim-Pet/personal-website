@@ -269,7 +269,7 @@ header nav
 }
 
 .logo-container:hover {
-    transform: scale(1.2) translateX(-7px);
+    transform: scale(1.2) translateX(-10px);
 }
 
 .logo {
