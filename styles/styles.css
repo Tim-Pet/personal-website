@@ -94,6 +94,7 @@ h3 {
         font-size: var(--fs-desktop);
     }
 }
+
 /* generic class stylings */
 .container {
     padding: 0 max(calc((100vw - 1000px) / 2 ), 10px);
@@ -330,9 +331,9 @@ header nav
     transform: translate(0, 28%)
 }
 
-/* ============
-    Keyframes
-============ */
+/* =================
+    KEYFRAMES
+================= */
 @keyframes wave {
     0%, 50%, 100% {
         transform: rotate(0deg);
@@ -354,6 +355,7 @@ header nav
     width:fit-content;
     transform-origin: 50% 70%;
 }
+
 
 @keyframes rotate {
     0% {
