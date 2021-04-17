@@ -2,7 +2,7 @@
 This is a project during my studies @NeueFische to showcase not just a project but rather myself
 
 ## Goal
-- Design a Websiite using Figma before writing a single line of code
+- Design a Website using Figma before writing a single line of code
 - Create a Website using Html, Css & JS only
 - Build mobile first
 - Build a clean Html structure & add non-semantic elements later
