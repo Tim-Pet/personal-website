@@ -66,6 +66,23 @@ h2 {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 10px;
+    position: relative;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    height: 0.2em;
+    width: 100%;
+    background-image: linear-gradient(120deg, var(--hover) 0%, var(--bg) 100%);
+    bottom: 5px;
+    left: 10px;
+    z-index: -1;
+}
+
+.h2-wrapper {
+    position: relative;
+    width:fit-content;
 }
 
 h3 {
