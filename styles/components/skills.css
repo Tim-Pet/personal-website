@@ -17,18 +17,18 @@
   width: 80%;
 }
 
-.skill-25w {
+.skills__skill-25w {
   width: 25%;
 }
-.skill-33w {
+.skills__skill-33w {
   width: 33.333%;
 }
-.skill-50w {
+.skills__skill-50w {
   width: 50%;
 }
 
 /* --Skilllink animation & styling-- */
-.link {
+.skill__link {
   display: inline-block;
   position: relative;
   text-decoration: none;
@@ -36,11 +36,11 @@
   overflow: hidden;
 }
 
-.link div {
+.skill__link div {
   width: 100%;
 }
 
-.link div svg {
+.skill__link div svg {
   display: block;
   position: absolute;
   left: -100%;
