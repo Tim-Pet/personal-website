@@ -6,7 +6,7 @@ This is a project during my studies @NeueFische to showcase not just a project b
 - Create a Website using Html, Css & JS only
 - Build mobile first
 - Build a clean Html structure & add non-semantic elements later
-- Code one clean css sheet with a good structure & minimal duplicates 
+- Code one css sheet in clean code
 
 ## Result
 ### Figma design showcase
