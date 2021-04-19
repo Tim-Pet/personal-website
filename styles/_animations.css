@@ -21,20 +21,3 @@
   width: fit-content;
   transform-origin: 50% 70%;
 }
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-}
-
-.logo-container:hover .rotate {
-  -webkit-animation: rotate 4s infinite linear;
-  -moz-animation: rotate 4s infinite linear;
-  -o-animation: rotate 4s infinite linear;
-  animation: rotate 4s infinite linear;
-  transform-origin: center;
-}
