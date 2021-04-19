@@ -5,6 +5,10 @@
 @import '_animations';
 @import '_utility.css';
 
-@import './components/';
+@import './components/header.css';
+@import './components/profile.css';
+@import './components/skills.css';
+@import './components/bio.css';
+@import './components/contact.css';
 
 @import 'styles.css';
