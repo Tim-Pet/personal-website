@@ -146,14 +146,14 @@ header nav
 }
 
 /* Me Section */
-.me-section {
+.profile-section {
     padding-top: calc(var(--header-height) + 15px);
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.me-section picture {
+.profile-section picture {
     width: 50%;
     display: flex;
     padding-right: 25px;
@@ -161,7 +161,7 @@ header nav
     justify-content: center;
 }
 
-.me-section picture img {
+.profile-section picture img {
     border-radius: 100% 100% 100% 100%;
     border: 1px solid var(--primary);
     width: 100%;
@@ -170,7 +170,7 @@ header nav
     max-height: 200px;
 }
 
-.me-section div p {
+.profile-section div p {
     line-height: 2rem;
 }
 
