@@ -257,12 +257,13 @@ header nav {
 /* Socials section */
 .socials-container {
   display: flex;
+  justify-content: space-between;
 }
 
-.socials-container div {
+/* .socials-container div {
   width: 33.333%;
   display: flex;
-}
+} */
 .logo-container {
   display: flex;
   align-items: center;
