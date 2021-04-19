@@ -1,16 +1,16 @@
-.contact-container {
+.contact {
   margin-top: 30px;
   padding: 20px 20px;
   background: var(--secondary);
 }
 
-.contact-entry {
+.contact__entry {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
 }
 
-.contact-entry i {
+.contact__icon {
   margin-right: 8px;
   display: inline-block;
 }
