@@ -4,7 +4,7 @@
   margin-bottom: 40px;
 }
 
-a.anchor {
+.anchor {
   display: block;
   position: relative;
   top: calc(var(--header-height) * -1);

@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: var(--primary);
   color: var(--bg);
   padding-top: 7px;
@@ -9,16 +9,13 @@ header {
   position: fixed;
   z-index: 100;
 }
-header h1,
-header nav {
-  display: flex;
-  width: 100%;
+.header__justified {
   align-self: center;
   justify-content: space-between;
 }
-.main-logo {
+.header__logo {
   font-size: 2.5rem;
 }
-.main-logo:hover {
+.header__logo:hover {
   color: inherit;
 }
