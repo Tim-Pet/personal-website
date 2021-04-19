@@ -260,10 +260,6 @@ header nav {
   justify-content: space-between;
 }
 
-/* .socials-container div {
-  width: 33.333%;
-  display: flex;
-} */
 .logo-container {
   display: flex;
   align-items: center;
@@ -316,20 +312,15 @@ header nav {
   background: var(--secondary);
 }
 
-.contact-container div {
-  margin-bottom: 10px;
-}
-
 .contact-entry {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
 }
 
-.contact-entry a i {
+.contact-entry i {
   margin-right: 8px;
   display: inline-block;
-  transform: translate(0, 28%);
 }
 
 /* =================
