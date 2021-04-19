@@ -1,34 +1,29 @@
-.skills-container {
+.skills__container {
   width: 100%;
-  display: flex;
   flex-flow: wrap;
   justify-content: center;
 }
 
-.layer-container {
+.skills__layer {
   margin-bottom: 5px;
-  display: flex;
 }
-.first-layer {
+.skills__layer-100w {
   width: 100%;
 }
-.second-layer {
+.skills__layer-90w {
   width: 90%;
 }
-.third-layer {
+.skills__layer-80w {
   width: 80%;
 }
 
-.skills {
-  text-align: center;
-}
-.skills-first-layer {
+.skill-25w {
   width: 25%;
 }
-.skills-second-layer {
+.skill-33w {
   width: 33.333%;
 }
-.skills-third-layer {
+.skill-50w {
   width: 50%;
 }
 

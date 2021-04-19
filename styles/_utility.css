@@ -29,3 +29,15 @@ a.anchor {
   width: -o-content;
   width: -webkit-content;
 }
+
+.bold {
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
