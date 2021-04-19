@@ -1,87 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root {
-  --duration-line: 0.8s;
-  --primary: #2e2e2e;
-  --secondary: #e5e5e5;
-  --bg: #f6f8ff;
-  --hover: #81e070;
-  --header-height: 60px;
-  --fs-mobile: 1rem;
-  --fs-desktop: 1.25rem;
-}
-
 /* =================
     GENERIC
 ================= */
 /* generic styling */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  background-color: var(--bg);
-  color: var(--primary);
-  font-family: 'Montserrat', sans-serif;
-}
-
-p,
-a {
-  font-size: var(--fs-mobile);
-}
-
-input,
-button,
-textarea {
-  font-size: inherit;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: 500;
-  -webkit-transition: transform 0.3s ease-in-out, color 0.15s ease-in-out;
-  -moz-transition: transform 0.3s ease-in-out, color 0.15s ease-in-out;
-  -o-transition: transform 0.3s ease-in-out, color 0.15s ease-in-out;
-  transition: transform 0.3s ease-in-out, color 0.15s ease-in-out;
-  transform-origin: left;
-}
-
-a:hover {
-  color: var(--hover);
-  transform: scale(1.2);
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 500;
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-h3 {
-  font-size: 1.625rem;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-/* ... */
-
-/* generic media queries */
-@media only screen and (min-width: 600px) {
-  p,
-  a {
-    font-size: var(--fs-desktop);
-  }
-}
 
 /* generic class stylings */
 .container {
