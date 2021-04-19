@@ -21,18 +21,17 @@
     </header>
 
     <a class="anchor" id="me"></a>
-    <section class="container profile-section">
-      <picture>
+    <section class="flex container profile">
+      <picture class="flex profile__left">
         <source media="(max-width:599px)" srcset="assets/images/memoji.jpg" />
         <source media="(min-width:600px)" srcset="assets/images/memoji.jpg" />
-        <!-- New img coming soon -->
-        <img src="assets/images/memoji.jpg" alt="" width="400" height="400" />
+        <img class="profile__image" src="assets/images/memoji.jpg" alt="" width="400" height="400" />
       </picture>
       <div>
         <h2 class="h2-underlined">#Me</h2>
-        <p><span class="icon wave">👋🏽</span>Hi, I am Tim</p>
-        <p><span class="icon">💻</span>Web Developer</p>
-        <p><span class="icon">⚓️</span>Hamburg</p>
+        <p class="profile__text"><span class="profile__icon wave">👋🏽</span>Hi, I am Tim</p>
+        <p class="profile__text"><span class="profile__icon">💻</span>Web Developer</p>
+        <p class="profile__text"><span class="profile__icon">⚓️</span>Hamburg</p>
       </div>
     </section>
 

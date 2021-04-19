@@ -1,19 +1,17 @@
-.profile-section {
+.profile {
   padding-top: calc(var(--header-height) + 15px);
-  display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.profile-section picture {
+.profile__left {
   width: 50%;
-  display: flex;
   padding-right: 25px;
   align-content: center;
   justify-content: center;
 }
 
-.profile-section picture img {
+.profile__image {
   border-radius: 100% 100% 100% 100%;
   border: 1px solid var(--primary);
   width: 100%;
@@ -22,10 +20,10 @@
   max-height: 200px;
 }
 
-.profile-section div p {
+.profile__text div p {
   line-height: 2rem;
 }
 
-.icon {
+.profile__icon {
   margin-right: 5px;
 }
