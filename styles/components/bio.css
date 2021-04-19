@@ -1,7 +1,3 @@
-.bio-section p {
+.bio__text {
   margin-bottom: 10px;
-}
-
-.bio-section p a {
-  font-weight: 600;
 }
