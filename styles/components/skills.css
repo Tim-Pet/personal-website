@@ -52,7 +52,8 @@
 }
 
 .skill__link:hover {
-  --line-d: var(--duration-line); /* set duration based on variable, make it snap back*/
+  --line-d: var(--duration-line); /* set duration based on variable, make it snap back */
   --line-x: 100%; /* move svg bg 100% to the right --> make it visible */
+
   color: inherit;
 }

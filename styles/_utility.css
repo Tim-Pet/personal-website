@@ -1,8 +1,5 @@
 .container {
-  padding-left: max(
-    calc((100vw - 1000px) / 2),
-    10px
-  ); /* Sets container width up to 1000px and gives min padding of 10px for less than 1000px body width*/
+  padding-left: max(calc((100vw - 1000px) / 2), 10px); /* Sets container width up to 1000px and gives min padding of 10px for less than 1000px body width*/
   padding-right: max(calc((100vw - 1000px) / 2), 10px);
   margin-bottom: 40px;
 }
