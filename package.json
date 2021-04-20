@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "This is a project during my studies @NeueFische to showcase not just a project but rather myself",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tim-Pet/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tim-Pet/personal-website/issues"
+  },
+  "homepage": "https://github.com/Tim-Pet/personal-website#readme",
+  "devDependencies": {
+    "live-server": "1.2.1"
+  }
+}
