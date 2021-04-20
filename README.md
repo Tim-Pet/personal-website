@@ -15,6 +15,8 @@ This is a project during my studies @NeueFische to showcase not just a project b
 ```shell
 $ npm install # install dependencies
 $ npm run dev # run live-server
+$ npm run test # run htmlhint
+
 ```
 
 ## Result
