@@ -20,10 +20,6 @@
   max-height: 200px;
 }
 
-.profile__text div p {
-  line-height: 2rem;
-}
-
 .profile__icon {
   margin-right: 5px;
 }
