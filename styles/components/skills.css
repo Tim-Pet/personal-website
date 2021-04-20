@@ -7,12 +7,15 @@
 .skills__layer {
   margin-bottom: 5px;
 }
+
 .skills__layer-100w {
   width: 100%;
 }
+
 .skills__layer-90w {
   width: 90%;
 }
+
 .skills__layer-80w {
   width: 80%;
 }
@@ -20,9 +23,11 @@
 .skills__skill-25w {
   width: 25%;
 }
+
 .skills__skill-33w {
   width: 33.333%;
 }
+
 .skills__skill-50w {
   width: 50%;
 }

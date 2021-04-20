@@ -24,9 +24,11 @@
 .socials__logo-git {
   background-image: url('../../assets/images/git.png');
 }
+
 .socials__logo-codepen {
   background-image: url('../../assets/images/codepen.png');
 }
+
 .socials__logo-linkedin {
   background-image: url('../../assets/images/linkedin.png');
 }
@@ -40,6 +42,7 @@
     font-size: var(--fs-mobile);
   }
 }
+
 @media (min-width: 600px) {
   .socials__name {
     font-size: var(--fs-desktop);
@@ -50,10 +53,12 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(359deg);
   }
 }
+
 .socials__entry:hover .rotate {
   -webkit-animation: rotate 4s infinite linear;
   -moz-animation: rotate 4s infinite linear;
