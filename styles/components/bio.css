@@ -2,3 +2,9 @@
   margin-bottom: 10px;
   line-height: 20px;
 }
+
+@media (min-width: 600px) {
+  .bio__text {
+    line-height: 25px;
+  }
+}
