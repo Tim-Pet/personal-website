@@ -1,0 +1,24 @@
+.header {
+  background-color: var(--primary);
+  color: var(--bg);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  z-index: 100;
+}
+
+.header__justified {
+  align-self: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-size: 2.5rem;
+}
+
+.header__logo:hover {
+  color: inherit;
+}

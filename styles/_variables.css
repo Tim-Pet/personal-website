@@ -1,0 +1,10 @@
+:root {
+  --primary: #2e2e2e;
+  --secondary: #e5e5e5;
+  --hover: #81e070;
+  --bg: #f6f8ff;
+  --fs-mobile: 1rem;
+  --fs-desktop: 1.25rem;
+  --duration-line: 0.8s;
+  --header-height: 60px;
+}

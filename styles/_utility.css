@@ -1,0 +1,43 @@
+.container {
+  padding-left: max(calc((100vw - 1000px) / 2), 10px); /* Sets container width up to 1000px and gives min padding of 10px for less than 1000px body width */
+  padding-right: max(calc((100vw - 1000px) / 2), 10px);
+  margin-bottom: 40px;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: calc(var(--header-height) * -1);
+  visibility: hidden;
+}
+
+.h2-underlined::before {
+  content: '';
+  position: absolute;
+  height: 0.2em;
+  width: 100%;
+  background-image: linear-gradient(120deg, var(--hover) 0%, var(--bg) 100%);
+  bottom: 5px;
+  left: 10px;
+  z-index: -1;
+}
+
+.h2-underlined {
+  position: relative;
+  width: fit-content;
+  width: -moz-fit-content;
+  width: -o-content;
+  width: -webkit-content;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TP | personal-website</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/global.css" />
     <link href="https://css.gg/phone.css" rel="stylesheet" />
     <link href="https://css.gg/mail-open.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header class="container">
-      <h1><a href="#me" class="main-logo">TP</a></h1>
-      <nav>
+    <header class="container header">
+      <h1 class="header__justified flex"><a href="#me" class="header__logo">TP</a></h1>
+      <nav class="header__justified flex">
         <a href="#skills">Skills</a>
         <a href="#bio">Bio</a>
         <a href="#socials">Socials</a>
@@ -21,120 +21,126 @@
     </header>
 
     <a class="anchor" id="me"></a>
-    <section class="container profile-section">
-      <picture>
+    <section class="flex container profile">
+      <picture class="flex profile__left">
         <source media="(max-width:599px)" srcset="assets/images/memoji.jpg" />
         <source media="(min-width:600px)" srcset="assets/images/memoji.jpg" />
-        <!-- New img coming soon -->
-        <img src="assets/images/memoji.jpg" alt="" width="400" height="400" />
+        <img class="profile__image" src="assets/images/memoji.jpg" alt="" width="400" height="400" />
       </picture>
       <div>
         <h2 class="h2-underlined">#Me</h2>
-        <p><span class="icon wave">👋🏽</span>Hi, I am Tim</p>
-        <p><span class="icon">💻</span>Web Developer</p>
-        <p><span class="icon">⚓️</span>Hamburg</p>
+        <span class="profile__icon wave">👋🏽</span>Hi, I am Tim
+        <br />
+        <span class="profile__icon">💻</span>Web Developer
+        <br />
+        <span class="profile__icon">⚓️</span>Hamburg
       </div>
     </section>
 
     <section class="container">
       <a class="anchor" id="skills"></a>
       <h2 class="h2-underlined">#Skills</h2>
-      <div class="skills-container">
-        <div class="first-layer layer-container">
-          <div class="skills skills-first-layer">
-            <!--Necessary for animation to fill only textblock-->
-            <a href="https://reactjs.org" class="link" target="_blank" rel="noopener noreferrer">React</a>
+      <div class="flex skills__container">
+        <div class="flex skills__layer-100w skills__layer">
+          <div class="text-center skills__skill-25w">
+            <a href="https://reactjs.org" class="skill__link" target="_blank" rel="noopener noreferrer">React</a>
           </div>
-          <div class="skills skills-first-layer">
-            <a href="https://www.gatsbyjs.com" class="link" target="_blank" rel="noopener noreferrer">Gatsby</a>
+          <div class="text-center skills__skill-25w">
+            <a href="https://www.gatsbyjs.com" class="skill__link" target="_blank" rel="noopener noreferrer">Gatsby</a>
           </div>
-          <div class="skills skills-first-layer">
-            <a href="#" class="link" target="_blank" rel="noopener noreferrer">Javasript</a>
+          <div class="text-center skills__skill-25w">
+            <a href="#" class="skill__link" target="_blank" rel="noopener noreferrer">Javasript</a>
           </div>
-          <div class="skills skills-first-layer">
-            <a href="#" class="link" target="_blank" rel="noopener noreferrer">Scss</a>
-          </div>
-        </div>
-        <div class="second-layer layer-container">
-          <div class="skills skills-second-layer">
-            <a href="#" class="link" target="_blank" rel="noopener noreferrer">Html</a>
-          </div>
-          <div class="skills skills-second-layer">
-            <a href="https://www.java.com/de/" class="link" target="_blank" rel="noopener noreferrer">Java</a>
-          </div>
-          <div class="skills skills-second-layer">
-            <a href="https://www.figma.com" class="link" target="_blank" rel="noopener noreferrer">Figma</a>
+          <div class="text-center skills__skill-25w">
+            <a href="#" class="skill__link" target="_blank" rel="noopener noreferrer">Scss</a>
           </div>
         </div>
-        <div class="third-layer layer-container">
-          <div class="skills skills-third-layer">
-            <a href="https://webflow.com" class="link" target="_blank" rel="noopener noreferrer">Webflow</a>
+        <div class="flex skills__layer-90w skills__layer">
+          <div class="text-center skills__skill-33w">
+            <a href="#" class="skill__link" target="_blank" rel="noopener noreferrer">Html</a>
           </div>
-          <div class="skills skills-third-layer">
-            <a href="https://wordpress.com/de/" class="link" target="_blank" rel="noopener noreferrer">Wordpress</a>
+          <div class="text-center skills__skill-33w">
+            <a href="https://www.java.com/de/" class="skill__link" target="_blank" rel="noopener noreferrer">Java</a>
+          </div>
+          <div class="text-center skills__skill-33w">
+            <a href="https://www.figma.com" class="skill__link" target="_blank" rel="noopener noreferrer">Figma</a>
+          </div>
+        </div>
+        <div class="flex skills__layer-80w skills__layer">
+          <div class="text-center skills__skill-50w">
+            <a href="https://webflow.com" class="skill__link" target="_blank" rel="noopener noreferrer">Webflow</a>
+          </div>
+          <div class="text-center skills__skill-50w">
+            <a href="https://wordpress.com/de/" class="skill__link" target="_blank" rel="noopener noreferrer"
+              >Wordpress</a
+            >
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container bio-section">
+    <section class="container">
       <a class="anchor" id="bio"></a>
       <h2 class="h2-underlined">#Bio</h2>
-      <p>
+      <p class="bio__text">
         I am a passionate web Developer located in Hamburg. I started Freelancing in the early months of 2020 and work
-        currently for <a href="https://edyoucated.org/de/" target="_blank" rel="noopener noreferrer">Edyoucated</a> &
-        <a href="https://www.vertigo-studios.de" target="_blank" rel="noopener noreferrer">Vertigo Studios</a>. My
-        latest project is a Progressiv Web App, built in cooperation with
-        <a href="https://www.bpc.ag" target="_blank" rel="noopener noreferrer">BPC</a>.
+        currently for
+        <a class="bold" href="https://edyoucated.org/de/" target="_blank" rel="noopener noreferrer">Edyoucated</a> &
+        <a class="bold" href="https://www.vertigo-studios.de" target="_blank" rel="noopener noreferrer"
+          >Vertigo Studios</a
+        >. My latest project is a Progressiv Web App, built in cooperation with
+        <a class="bold" href="https://www.bpc.ag" target="_blank" rel="noopener noreferrer">BPC</a>.
       </p>
-      <p>
-        2019 is the year where my journey began. After graduating from Real Estate & Facility Management with a
+      <p class="bio__text">
+        2019 is the year where my journey began. After graduating from Real Estate &amp; Facility Management with a
         bachelors degree from the university in Münster I started over. I studied business informatic at an university
         for about 2 years. Getting hooked by Web Development I started as a freelancer while taking further education by
-        <a href="https://www.techlabs.org" target="_blank" rel="noopener noreferrer">Techlabs</a> &
-        <a href="https://www.neuefische.de" target="_blank" rel="noopener noreferrer">Neue Fische</a>.
+        <a class="bold" href="https://www.techlabs.org" target="_blank" rel="noopener noreferrer">Techlabs</a> &
+        <a class="bold" href="https://www.neuefische.de" target="_blank" rel="noopener noreferrer">Neue Fische</a>.
       </p>
-      <p>
+      <p class="bio__text">
         If you are interested in my latest projects, or want to deep dive in my Journey from a technical point of view,
         feel free to give my Portfolio
-        <a href="https://github.com/Tim-Pet" target="_blank" rel="noopener noreferrer">@Github</a> a look.
+        <a class="bold" href="https://github.com/Tim-Pet" target="_blank" rel="noopener noreferrer">@Github</a> a look.
       </p>
     </section>
 
     <section class="container">
       <a class="anchor" id="socials"></a>
       <h2 class="h2-underlined">#Socials</h2>
-      <div class="socials-container">
-        <a class="logo-container" href="https://github.com/Tim-Pet" target="_blank" rel="noopener noreferrer">
-          <div class="logo rotate git-logo"></div>
-          <span>github</span>
+      <div class="flex socials">
+        <a class="flex socials__entry" href="https://github.com/Tim-Pet" target="_blank" rel="noopener noreferrer">
+          <div class="socials__logo socials__logo-git rotate"></div>
+          <span class="socials__name">github</span>
         </a>
-        <a class="logo-container" href="https://codepen.io/TimPet" target="_blank" rel="noopener noreferrer">
-          <div class="logo rotate codepen-logo"></div>
-          <span>codepen</span>
+        <a class="flex socials__entry" href="https://codepen.io/TimPet" target="_blank" rel="noopener noreferrer">
+          <div class="socials__logo rotate socials__logo-codepen"></div>
+          <span class="socials__name">codepen</span>
         </a>
         <a
-          class="logo-container"
+          class="flex socials__entry"
           href="https://www.linkedin.com/in/tim-petersen-6022121a3/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div class="logo rotate linkedin-logo"></div>
-          <span>linkedin</span>
+          <div class="socials__logo rotate socials__logo-linkedin"></div>
+          <span class="socials__name">linkedin</span>
         </a>
       </div>
 
-      <div class="contact-container">
+      <div class="contact">
         <h3>Contact me:</h3>
-        <a href="tel:+4915789123500" class="contact-entry"><i class="gg-phone"></i><span>0157/89123500</span></a>
-        <a href="mailto:tim.petersen1@outlook.de" class="contact-entry"
-          ><i class="gg-mail-open"></i><span>tim.petersen1@outlook.de</span></a
+        <a href="tel:+4915789123500" class="flex contact__entry"
+          ><i class="gg-phone contact__icon"></i><span>0157/89123500</span></a
+        >
+        <a href="mailto:tim.petersen1@outlook.de" class="flex contact-entry"
+          ><i class="gg-mail-open contact__icon"></i><span>tim.petersen1@outlook.de</span></a
         >
       </div>
     </section>
 
     <script>
-      document.querySelectorAll('.link').forEach(link => {
+      document.querySelectorAll('.skill__link').forEach(link => {
         link.insertAdjacentHTML(
           'afterbegin',
           `<div>
