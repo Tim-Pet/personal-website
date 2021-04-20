@@ -10,6 +10,13 @@ This is a project during my studies @NeueFische to showcase not just a project b
 - Build a clean Html structure & add non-semantic elements later
 - Code one css sheet in clean code
 
+## Installation
+
+```shell
+$ npm install # install dependencies
+$ npm run dev # run live-server
+```
+
 ## Result
 
 ### Figma design showcase
